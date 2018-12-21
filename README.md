@@ -10,7 +10,7 @@ JSON:\
 &nbsp;&nbsp;&nbsp;&nbsp;email: jdoe87@dockerize.com\
 &nbsp;&nbsp;}\
 ]
-## Transacción Compra\
+## Transacción Compra
 Url: [to be defined]\
 JSON:\
 [\
