@@ -56,8 +56,8 @@ JSON:
 ### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
 Url: [/users/:id]\
 
-## Transacción Compra [POST]
-Url: [Undefined]\
+## Crear Transacción de Compra [POST]
+Url: [/orders/register]\
 JSON:
 ```json
 [
@@ -68,3 +68,9 @@ JSON:
   }
 ]
 ```
+
+## Ver Transacciónes de Compra [GET]
+Url: [/orders]
+
+## Ver Transacción de Compra por ID [GET]
+Url: [/orders/:id]
