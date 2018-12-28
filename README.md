@@ -27,7 +27,7 @@ JSON:
 
 ## Ver todos los usuarios [GET]
 ### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
-Url: [/users]
+Url: [/users/]
 
 ## Ver todos los usuarios [GET]
 ### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
@@ -54,10 +54,11 @@ JSON:
 
 ## Eliminar usuario [DELETE]
 ### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
-Url: [/users/:id]\
+Url: [/users/:id]
 
-## Transacción Compra [POST]
-Url: [Undefined]\
+## Crear Transacción de Compra [POST]
+### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
+Url: [/orders/transaction]\
 JSON:
 ```json
 [
@@ -68,3 +69,15 @@ JSON:
   }
 ]
 ```
+
+## Ver Transacciones de Compra [GET]
+### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
+Url: [/orders/]
+
+## Ver Transacción de Compra por ID [GET]
+### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
+Url: [/orders/:id]
+
+## Eliminar Transacción de Compra [DELETE]
+### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
+Url: [/orders/:id]
