@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb://localhost/Clients_Transactions",
+    "secret": "AksJulai!234asd%$332123DASgdssaqe"
+}
