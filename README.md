@@ -1,5 +1,15 @@
 # webservices-docker
 
+## Correr docker
+
+En caso de no tenerlo instalado. 
+En la consola ejecutar: "sudo apt-get install docker-compose"
+### iniciar los contenedores
+Colocar una terminal de comandos en la carpeta contenedora 
+Luego en la terminar ejecutar "docker-compose up"
+Esperar a que termine de crear e iniciar los contenedores
+Para detenerlos ejecutar "docker-compose down"
+
 ## Registro Cliente [POST]
 Url: [/users/register]\
 JSON:
