@@ -5,10 +5,12 @@
 En caso de no tenerlo instalado. 
 En la consola ejecutar: "sudo apt-get install docker-compose"
 ### iniciar los contenedores
-Colocar una terminal de comandos en la carpeta contenedora 
-Luego en la terminar ejecutar "docker-compose up"
-Esperar a que termine de crear e iniciar los contenedores
-Para detenerlos ejecutar "docker-compose down"
+Colocar una terminal de comandos en la carpeta contenedora <br />
+Luego en la terminar ejecutar "docker-compose up"<br />
+Esperar a que termine de crear e iniciar los contenedores<br />
+Para detenerlos ejecutar "docker-compose down"<br />
+<b>la aplicacion corre en el puerto 80 de la pc y en el 3000 del contenedor<b/>
+
 
 ## Registro Cliente [POST]
 Url: [/users/register]\
