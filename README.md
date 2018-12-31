@@ -93,3 +93,8 @@ Url: [/orders/:id]
 ## Eliminar Transacción de Compra [DELETE]
 ### Authorization: Bearer Token -> "El token obtenido al iniciar sesión"
 Url: [/orders/:id]
+
+### integrantes
+Reinel Arteaga
+Yorfrank Bastidas
+David Ortuño
